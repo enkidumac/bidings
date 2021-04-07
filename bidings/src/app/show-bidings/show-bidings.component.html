@@ -1,2 +1,6 @@
-<p>{{ tekst + "  " +  tekstInny }}</p>
-<button (click)="zmienTeksts('Pawełek + Tomek')">zmien teksts</button>
+<p>{{ bookName.name }}</p>
+<button (click)="changeText(bookName.name)">zmien teksts</button>
+<div>
+  <label for="input1">Text:</label>
+  <input id="input1" [(ngModel)]="bookName.name">
+</div>
