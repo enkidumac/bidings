@@ -1,3 +1,4 @@
+import { ItemService } from './item.service';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -24,7 +25,7 @@ import { BasketComponent } from './basket/basket.component';
     AppRoutingModule,
     RouterModule
   ],
-  providers: [],
+  providers: [ItemService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

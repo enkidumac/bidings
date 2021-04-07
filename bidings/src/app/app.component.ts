@@ -11,5 +11,5 @@ export class AppComponent {
   title = 'bidings';
   cat= new Cat("Piskorski");
 
-  selectedItem = new Item(129,"Mi band 5");
+  selectedItem = new Item(0,129,"Mi band 5");
 }

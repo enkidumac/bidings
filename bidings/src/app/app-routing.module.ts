@@ -7,7 +7,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   { path: 'itemlist', component: ItemListComponent },
-  { path: 'basket', component: BasketComponent }
+  { path: 'basket', component: BasketComponent },
+  { path: 'details/:id', component: DetailViewComponent }
 ];
 
 @NgModule({
