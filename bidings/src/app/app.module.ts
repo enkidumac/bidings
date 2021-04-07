@@ -4,15 +4,25 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ShowBidingsComponent } from './show-bidings/show-bidings.component';
+import { DetailViewComponent } from './detail-view/detail-view.component';
+import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
+import { ItemListComponent } from './item-list/item-list.component';
+import { BasketComponent } from './basket/basket.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ShowBidingsComponent
+    ShowBidingsComponent,
+    DetailViewComponent,
+    ItemListComponent,
+    BasketComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

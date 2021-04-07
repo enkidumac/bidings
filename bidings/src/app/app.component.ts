@@ -1,3 +1,4 @@
+import { Item } from './item';
 import { Cat } from './cat';
 import { Component } from '@angular/core';
 
@@ -9,4 +10,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'bidings';
   cat= new Cat("Piskorski");
+
+  selectedItem = new Item(129,"Mi band 5");
 }
