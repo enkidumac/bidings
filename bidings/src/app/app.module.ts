@@ -23,7 +23,6 @@ import { BasketComponent } from './basket/basket.component';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    RouterModule
   ],
   providers: [ItemService],
   bootstrap: [AppComponent]
