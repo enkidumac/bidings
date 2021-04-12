@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class ItemService {
 
   items: Item[] = [
-      new Item(1,32,"Harry potta"),
+      new Item(1,32, "Harry potta"),
       new Item(2,30, "Coś"),
       new Item(3,25, "Diuna")
   ]

@@ -10,6 +10,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { ItemListComponent } from './item-list/item-list.component';
 import { BasketComponent } from './basket/basket.component';
+import { AlaComponent } from './inne/ala/ala.component';
+import { HttpClientModule  } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { BasketComponent } from './basket/basket.component';
     ShowBidingsComponent,
     DetailViewComponent,
     ItemListComponent,
-    BasketComponent
+    BasketComponent,
+    AlaComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [ItemService],
   bootstrap: [AppComponent]
